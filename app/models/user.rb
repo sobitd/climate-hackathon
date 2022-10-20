@@ -1,4 +1,4 @@
 class User < ApplicationRecord
-    has_many :question_histories
+    has_one :question_history
     has_one :role
 end
